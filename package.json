@@ -1,0 +1,19 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "ToDo app which will be helpful in creating new todo, update and delete existing todo",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Karthikeyan N",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.4.0",
+    "supertest": "^6.1.3"
+  }
+}
